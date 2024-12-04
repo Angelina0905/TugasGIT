@@ -43,9 +43,14 @@ data_panen = {
     }
 
 }
+
 print([data_panen])
+
 print(data_panen['lokasi2']['hasil_panen']['jagung'])
+
 print(data_panen['lokasi3']['nama_lokasi'])
+
+
 lokasi1_padi = data_panen['lokasi1']['hasil_panen']['padi']
 lokasi1_kedelai = data_panen['lokasi1']['hasil_panen']['kedelai']
 
@@ -75,3 +80,5 @@ for lokasi, data in data_panen.items():
         print(f"Lokasi {nama_lokasi} memerlukan perhatian khusus.")
     else:
         print(f"Lokasi {nama_lokasi} dalam kondisi baik.")
+
+Angelina 
